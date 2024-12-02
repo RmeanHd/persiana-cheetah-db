@@ -1,0 +1,310 @@
+{
+  "Header": [
+    {
+      "id": 1,
+      "logo": "https://cdn.dribbble.com/userupload/14592771/file/original-dc27823e1a230f3928c47890c9f33974.jpg",
+      "logolink": "/",
+      "orderText": "پیگیری خرید",
+      "orderLink": "#",
+
+      "nav": [
+        {
+          "id": 1,
+          "text": "محصولات",
+          "link": "#"
+        },
+        { "id": 2, "text": "قوانین و مقررات", "link": "#" },
+        { "id": 3, "text": "تماس با ما", "link": "#" },
+        { "id": 4, "text": "درباره ما", "link": "#" }
+      ],
+      "loginText": "ورود یا ثبت نام",
+      "loginLink": "#"
+    }
+  ],
+  "mobilenav": [
+    {
+      "id": "1",
+      "logo": "https://cdn.dribbble.com/userupload/14592771/file/original-dc27823e1a230f3928c47890c9f33974.jpg",
+      "categories": [
+        {
+          "id": 1,
+          "text": "باشگاه مشتریان",
+          "link": "https://www.google.com/"
+        },
+        { "id": 2, "text": "قوانین و مقررات", "link": "#" },
+        { "id": 3, "text": "تماس با ما", "link": "#" },
+        { "id": 4, "text": "درباره ما", "link": "#" }
+      ]
+    }
+  ],
+  "Parallax": [
+    {
+      "id": 1,
+      "cheetahText": "گروه پرشیانا چیتا",
+      "text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. ",
+      "aboutUsLink": "#",
+      "aboutUsText": "ما را بیشتر بشناسید"
+    }
+  ],
+  "Misc": [
+    {
+      "id": 1,
+      "title": "محصولات ما",
+
+      "Slides": [
+        {
+          "id": 1,
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+          "link": "/products",
+          "text": "جکوزی 1"
+        },
+        {
+          "id": 2,
+          "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+          "link": "/products",
+          "text": "جکوزی 2"
+        },
+        {
+          "id": 3,
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/257711876.jpg?k=aa9a72c63988a5195d622b76d83af9c4f767ab35307e22bc9bb5980945fa6c6d&o=&hp=1",
+          "link": "/products",
+          "text": "جکوزی 3"
+        },
+        {
+          "id": 4,
+          "image": "https://nomoregreen.com/cdn/shop/products/Spa_cyan.jpg?v=1707333877",
+          "link": "/products",
+          "text": "جکوزی 4"
+        }
+      ],
+      "viewallLink": "/products",
+      "viewallText": "همه محصولات"
+    }
+  ],
+  "Aboutus": [
+    {
+      "id": 1
+    }
+  ],
+  "Features": [
+    {
+      "id": 1,
+      "svg": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjIxLjUsMjEwLjZsLTMyLTY5LjFsLTEuOSwxLjJjLTAuNiwwLjQtMS4yLDAuOS0xLjYsMS41bC04LDEyLjRjLTIuNSwzLjgtNi44LDYuMi0xMS40LDYuNWwtMTUsMC42Yy0wLjcsMC0xLjUsMC4yLTIuMiwwLjZsLTIuMSwxLjFsLTE1LDMyLjNsMjAuNiw0NC42YzIuMSw0LjUsOC40LDUuMSwxMS4yLDFsMTUuNy0yMmMxLjgtMi40LDQtMy42LDUuNi0yLjdsMjkuOSwxQzIyMC4xLDIxOS43LDIyMy40LDIxNC45LDIyMS41LDIxMC42TDIyMS41LDIxMC42eiBNMTM2LDE3MWMtMiwxLTQuMywxLjUtNi42LDEuNWMtMi4zLDAtNC42LTAuNS02LjYtMS42bC0zLjctMS45bC05LjYtNC44Yy0wLjctMC4zLTEuNC0wLjUtMi4yLTAuNmwtMTUtMC42Yy00LjYtMC4yLTguOS0yLjYtMTEuNC02LjVsLTgtMTIuNGMtMC40LTAuNi0xLTEuMi0xLjYtMS41bC00LjEtMi42bC0zMi42LDcwLjVjLTIsNC4yLDEuMiw5LDUuOSw5aDAuMmwyOS45LTFoMC4yYzIuMSwwLDQuMSwxLDUuMywyLjdsMTUuNywyMmMxLjMsMS44LDMuMywyLjcsNS4zLDIuN2MyLjQsMCw0LjgtMS4zLDUuOS0zLjdsMjQuOS01My44TDEzNiwxNzFMMTM2LDE3MUwxMzYsMTcxeiBNNTcuNiwxMDMuNGMwLjksMS43LDEuNCwzLjQsMS40LDUuM2wwLjcsMTQuNmMwLjEsMi4xLDEuMiwzLjksMyw1LjFsMC45LDAuNmwzLjMsMmwzLjMsMmw1LjEsMy4yYzEuNiwxLDMsMi4zLDQsMy45bDguMSwxMi40YzEuMSwxLjgsMy4xLDIuOCw1LjIsMi45bDE1LDAuNmMxLjksMC4xLDMuNywwLjYsNS40LDEuNGwwLjgsMC40bDEyLjUsNi4zYzAuOSwwLjUsMiwwLjcsMywwLjdzMi0wLjIsMy0wLjdsOC44LTQuNWw0LjUtMi4zYzAuMy0wLjIsMC43LTAuMywxLTAuNWMxLjQtMC42LDIuOS0wLjksNC40LTFsMC4zLDBsMTQuNy0wLjZjMi4xLTAuMSw0LTEuMiw1LjItMi45bDguMS0xMi40YzEtMS42LDIuNC0yLjksNC0zLjlsMi45LTEuOGw5LjgtNi4xYzEuOC0xLjEsMi45LTMsMy01LjFsMC42LTE0LjZjMC4xLTEuOSwwLjYtMy43LDEuNC01LjNsNi45LTEzYzEtMS44LDEtNCwwLTUuOGwtNi45LTEzYy0wLjktMS42LTEuNC0zLjQtMS40LTUuM0wxOTksNTEuNmMtMC4xLTIuMS0xLjItMy45LTMtNS4xbC0xMi43LTcuOWMtMS42LTEtMy0yLjMtNC0zLjlsLTgtMTIuNGMtMS4xLTEuOC0zLjEtMi44LTUuMi0yLjlsLTE1LTAuNmMtMS45LTAuMS0zLjctMC42LTUuNC0xLjRsLTEzLjMtNi43Yy0wLjktMC41LTItMC43LTMtMC43cy0yLDAuMi0zLDAuN0wxMTMsMTcuNGMtMS43LDAuOS0zLjUsMS4zLTUuNCwxLjRsLTE1LDAuNmMtMi4xLDAuMS00LDEuMi01LjIsMi45bC04LjEsMTIuNGMtMSwxLjYtMi40LDIuOS00LDMuOWwtMTIuNiw3LjljLTEuOCwxLjEtMi45LDMtMyw1LjFsLTAuNiwxNC42Yy0wLjEsMS45LTAuNiwzLjctMS40LDUuM2wtNi45LDEzYy0xLDEuOC0xLDQsMCw1LjhMNTcuNiwxMDMuNEw1Ny42LDEwMy40eiIvPjwvZz48L2c+DQo8L3N2Zz4=",
+      "title": "بالاترین کیفیت,بهترین قیمت",
+      "text": "لورم ایپسوم متن ساختگی با تولید سادگی "
+    },
+    {
+      "id": 2,
+      "svg": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNNjguMSwxMzAuOEg1OWMtMTAuOCwwLTE5LjUsOC43LTE5LjUsMTkuNXY0Ni41YzAsMTAuOCw4LjcsMTkuNSwxOS41LDE5LjVoOS4xYzEwLjgsMCwxOS41LTguNywxOS41LTE5LjV2LTQ2LjVDODcuNiwxMzkuNiw3OC45LDEzMC44LDY4LjEsMTMwLjh6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTEwLDE2Mi40djIyLjRjMCw2LjUsOC4yLDExLjgsMTQuOCwxMS44di00Ni4xQzE4LjIsMTUwLjUsMTAsMTU1LjgsMTAsMTYyLjR6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTE5NywxMzAuOGgtOS4xYy0xMC44LDAtMTkuNSw4LjctMTkuNSwxOS41djQ2LjVjMCw2LjMsMi45LDExLjgsNy41LDE1LjRjLTcuMiwyLjItMTYuMywzLjgtMjcuOCw0LjJjLTIuNi00LjQtNy4zLTcuMy0xMi43LTcuM2gtMTQuOGMtOC4xLDAtMTQuNyw2LjYtMTQuNywxNC43YzAsOC4yLDYuNiwxNC44LDE0LjcsMTQuOGgxNC44YzUuNSwwLDEwLjMtMywxMi44LTcuNWMyNy4xLTAuOSw0My40LTcuOSw1My4zLTE1LjRjOC42LTIsMTUtOS43LDE1LTE5di00Ni41QzIxNi41LDEzOS42LDIwNy44LDEzMC44LDE5NywxMzAuOHoiLz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjMxLjIsMTUwLjV2NDYuMWM2LjUsMCwxNC44LTUuMywxNC44LTExLjh2LTIyLjRDMjQ2LDE1NS44LDIzNy43LDE1MC41LDIzMS4yLDE1MC41eiIvPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMjguMiw0OC43YzI2LDAsNDguMiwyMi40LDQ4LjQsNDguOWMwLjEsOC44LDYuOSwxNS40LDE1LjgsMTUuNGM0LjMsMCw4LjMtMS42LDExLjItNC41YzIuOC0yLjksNC40LTYuNyw0LjMtMTFjLTAuNC00My44LTM2LjQtNzkuOC04MC4xLTgwLjJoLTAuN2MtMjEuMSwwLTQxLDguNS01Ni4yLDIzLjlDNTYsNTYuNSw0Ny43LDc2LjUsNDcuNSw5Ny41YzAsNC4yLDEuNSw4LjEsNC4zLDExYzIuOSwyLjksNyw0LjYsMTEuMyw0LjZjOC44LDAsMTUuNi02LjYsMTUuNy0xNS4zQzc5LjEsNzEsMTAxLDQ5LDEyNy43LDQ4LjdIMTI4LjJ6Ii8+PC9nPjwvZz4NCjwvc3ZnPg==",
+      "title": "خدمات پس از فروش",
+      "text": "لورم ایپسوم متن ساختگی با تولید سادگی "
+    },
+    {
+      "id": 3,
+      "svg": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMjIzLjQsOTAuMUgxNjN2ODUuOGgyNi40YzAuNSw2LjIsMy4zLDExLjgsNy40LDE2YzQuNiw0LjYsMTEuMSw3LjUsMTguMSw3LjVjNy4xLDAsMTMuNS0yLjksMTguMS03LjVsMCwwYzQuMi00LjIsNi45LTkuOCw3LjQtMTZoNS41di0yOS4xTDIyMy40LDkwLjFMMjIzLjQsOTAuMXogTTQzLjEsMTQ4LjFjLTQuOCwwLTkuMywxLjMtMTMuMSwzLjdIMTB2MjQuMWg3LjZjMC41LDYuMiwzLjMsMTEuOCw3LjQsMTZjNC42LDQuNiwxMS4xLDcuNSwxOC4xLDcuNWM3LjEsMCwxMy41LTIuOSwxOC4xLTcuNWwwLDBjNC4yLTQuMiw2LjktOS44LDcuNC0xNmg4MS4xVjU2LjZIMTBWODBoMTA5LjN2OS4ySDEwVjExMWgxMDkuM3Y5LjJIMTB2MjIuNGgxMDkuM3Y5LjFoLTYzQzUyLjUsMTQ5LjUsNDcuOSwxNDguMSw0My4xLDE0OC4xTDQzLjEsMTQ4LjF6IE0zNiwxNjYuNmMxLjgtMS44LDQuMy0yLjksNy4xLTIuOWMyLjgsMCw1LjMsMS4xLDcuMSwzYzEuOCwxLjgsMi45LDQuMywyLjksNy4xYzAsMi44LTEuMSw1LjMtMi45LDcuMWMtMS44LDEuOC00LjMsMi45LTcuMSwyLjljLTIuOCwwLTUuMy0xLjEtNy4xLTIuOWMtMS44LTEuOC0zLTQuMy0zLTcuMUMzMywxNzAuOSwzNC4yLDE2OC40LDM2LDE2Ni42TDM2LDE2Ni42TDM2LDE2Ni42eiBNMjA3LjksMTY2LjZjMS44LTEuOCw0LjMtMi45LDcuMS0yLjljMi44LDAsNS4zLDEuMSw3LjEsM3MzLDQuMywzLDcuMWMwLDIuOC0xLjEsNS4zLTIuOSw3LjFjLTEuOCwxLjgtNC40LDIuOS03LjEsMi45cy01LjMtMS4xLTcuMS0yLjljLTEuOC0xLjgtMy00LjMtMy03LjFDMjA0LjksMTcwLjksMjA2LDE2OC40LDIwNy45LDE2Ni42TDIwNy45LDE2Ni42TDIwNy45LDE2Ni42eiBNMjI3LjIsMTQ0LjRoLTM3LjN2LTQwLjhoMjIuNkwyMjcuMiwxNDQuNHoiLz48L2c+PC9nPg0KPC9zdmc+",
+      "title": "ارسال رایگان",
+      "text": "لورم ایپسوم متن ساختگی با تولید سادگی "
+    }
+  ],
+  "Footer": [
+    {
+      "id": 1,
+      "Services": [
+        { "id": 1, "text": "چرا پرشیانا چیتا؟", "link": "#" },
+        { "id": 2, "text": "باشگاه مشتریان", "link": "#" },
+        { "id": 3, "text": "فروش سازمانی", "link": "#" },
+        { "id": 4, "text": "پرسش و پاسخ", "link": "#" },
+        { "id": 5, "text": "مجله سایت", "link": "#" },
+        { "id": 6, "text": "قوانین و مقررات", "link": "#" }
+      ],
+      "application": [
+        {
+          "id": 1,
+          "image": "https://www.digikala.com/statics/img/svg/appStores/myket.svg",
+          "link": "#"
+        },
+        {
+          "id": 2,
+          "image": "https://www.digikala.com/statics/img/svg/appStores/coffe-bazzar.svg",
+          "link": "#"
+        }
+      ],
+      "info": [
+        {
+          "id": 1,
+          "text": ":تلفن",
+          "information": "(021) 22 33 44 55",
+          "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTExLjIsNy44Yy0xLjMsMS4zLTEuNiwyLjgtMC43LDQuMWMxLDEuNSwxLjksMS42LDEwLjYsMmMxMS4xLDAuNSwyNC42LDMuMiwzNS40LDcuMWM3LjUsMi44LDIwLjQsOS4zLDI2LjcsMTMuNWMyOC4yLDE4LjgsNDcuMSw0Ny4yLDUzLjgsODAuNWMxLjQsNy4yLDIuMywxNS40LDIuMywyMS41YzAsMy4yLDAuMiw0LjMsMC45LDUuMWMxLjQsMS42LDIuOCwxLjgsNC40LDAuNWwxLjQtMS4xbC0wLjMtNy4zYy0xLjUtMzIuOS0xNS4yLTYzLjgtMzguOS04Ny41Yy0yMy43LTIzLjctNTQuNi0zNy41LTg3LjItMzguOUMxMTMsNi45LDExMS45LDcsMTExLjIsNy44eiIvPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMTMuMSw0Ny42Yy0yLjYsMi42LTAuOSw1LjMsMy4zLDUuM2MxLjQsMCw0LjcsMC4zLDcuNSwwLjZjNDIuOSw0LjcsNzQuOCwzNy42LDc3LjcsODAuNGMwLjIsMy41LDAuNiw2LjksMC44LDcuNGMwLjksMi4zLDQuOSwxLjksNS42LTAuNmMwLjUtMi4yLTAuMy0xMi44LTEuNC0xOC4zYy04LjQtNDEuNC00Mi4yLTcxLjktODQtNzUuNUMxMTQuNSw0Ni4yLDExNC40LDQ2LjIsMTEzLjEsNDcuNnoiLz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNNTAuNiw2NC41QzQzLDY2LDM1LjMsNzEuMiwyNi40LDgxYy03LjMsNy45LTEwLjgsMTIuNi0xMy4xLDE3LjRDOCwxMDkuNiw5LDExOS4yLDE2LjksMTMxLjJjMS44LDIuNywxNC42LDE1LjgsNTMuNSw1NC45YzMwLjUsMzAuNSw1Mi44LDUyLjYsNTUuMiw1NC40YzQuNSwzLjUsMTAuNiw2LjUsMTUuMSw3LjdjMy41LDAuOSw5LjQsMSwxMi44LDAuMmM0LjEtMSwxMS4zLTQuOCwxNi4zLTguNmM1LjktNC41LDE2LjQtMTQuNywxOS43LTE5YzguMS0xMC43LDkuMi0yMiwzLjEtMzEuN2MtMS42LTIuNS0yMC40LTIxLjYtMjMuMi0yMy42Yy0xLjgtMS4yLTMuOS0wLjUtOS44LDMuM2MtMTAuNCw2LjUtMjMsMTcuMi0zMC40LDI1LjZMMTI2LDE5OGwtMzMuMy0zMy43Yy0xOC4zLTE4LjUtMzMuMy0zMy44LTMzLjMtMzRjMC0wLjEsMS44LTEuNiwzLjktMy4xYzExLjctOC44LDIzLTIwLjMsMjguMS0yOC43YzMtNSwzLjEtNC44LTcuNi0xNmMtNS4yLTUuMy0xMC42LTEwLjgtMTIuMS0xMi4xQzY1LjUsNjUuMiw1Ny44LDYzLDUwLjYsNjQuNXogTTYyLjksNzIuNmMyLjgsMS4zLDQuNywzLDEzLjMsMTEuNGM1LjQsNS40LDkuOSwxMC4xLDkuOSwxMC41YzAsMS4yLTUuMyw4LjEtMTAuMiwxMy4xYy01LjgsNi4xLTEzLjEsMTIuMi0yMCwxNi45Yy00LjYsMy4xLTQuOCwzLjQtNC44LDUuMXMxLjksMy43LDM2LjUsMzguOGMyMC4xLDIwLjQsMzcsMzcuMiwzNy42LDM3LjRjMS44LDAuOCwzLjQtMC4xLDUuMi0yLjhjMi41LTMuNywxMy45LTE1LjEsMjAuMi0yMC4xYzQuOC0zLjgsMTUuNC0xMS4xLDE2LjEtMTEuMWMwLjIsMCw0LjYsNC4zLDkuOSw5LjVjOCw3LjgsOS45LDEwLDExLjMsMTIuN2MzLjMsNi41LDIuNSwxNC0yLjQsMjEuMWMtMy4xLDQuNS0xNi43LDE3LjUtMjIuOCwyMS43Yy0yLjYsMS44LTYuMSwzLjctOCw0LjNjLTcuNSwyLjctMTUuOSwwLjktMjQuNS01LjJjLTQtMi44LTEwMi43LTEwMS41LTEwNi4yLTEwNi4yYy05LjgtMTMtOS45LTIyLjktMC42LTM1LjNjNC4zLTUuNiwxNC4zLTE2LDE4LTE4LjZDNDkuMiw3MC4zLDU1LjksNjkuMyw2Mi45LDcyLjZ6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTExMy4xLDg2LjljLTEuNSwxLjUtMS42LDIuOS0wLjMsNC4yYzAuNywwLjcsMi4xLDEsNS42LDEuM2MxMC4zLDAuOCwxOS45LDQuNSwyNy41LDEwLjVjMTAuNyw4LjYsMTYuOCwyMC42LDE4LjEsMzUuNWMwLjUsNS43LDIuMiw3LjQsNS4yLDUuM2MxLjItMC45LDEuMi0xLDAuOS02LjVjLTEuMy0yNS45LTIyLjktNDguMi00OS40LTUxLjJDMTE0LjMsODUuNSwxMTQuNSw4NS41LDExMy4xLDg2Ljl6Ii8+PC9nPjwvZz48L2c+DQo8L3N2Zz4="
+        },
+        {
+          "id": 2,
+          "text": "آدرس:",
+          "information": "تهران، بلوار نلسون ماندلا، کوچه ایرج، پلاک یک",
+          "image": "./public/images/Footer/location-pin-svgrepo-com (2).svg"
+        }
+      ],
+      "licenses": [
+        {
+          "id": 2,
+          "image": "https://www.digikala.com/statics/img/png/kasbokar.png",
+          "link": "#"
+        },
+        {
+          "id": 3,
+          "image": "https://www.p30web.org/wp-content/uploads/2016/12/enamad_icon_text_color_blue_1024.png",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "category": "وان",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "category": "وان",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "category": "وان",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "category": "وان",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "category": "وان",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "#"
+    },
+    {
+      "id": 10,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "#"
+    },
+    {
+      "id": 11,
+      "category": "وان",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "#"
+    },
+    {
+      "id": 12,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "#"
+    }
+  ],
+  "Product": [
+    {
+      "id": 1,
+      "link": "#",
+      "name": "جکوزی پرشین",
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "جکوزی تیپ 1 دو نفره", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+        },
+        {
+          "id": 2,
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+        },
+        {
+          "id": 3,
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+        },
+        {
+          "id": 4,
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+        }
+      ]
+    }
+  ],
+  "OtherProducts": [
+    {
+      "id": 1,
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "link": "/products",
+      "text": "جکوزی 1"
+    },
+    {
+      "id": 2,
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "link": "/products",
+      "text": "جکوزی 2"
+    },
+    {
+      "id": 3,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/257711876.jpg?k=aa9a72c63988a5195d622b76d83af9c4f767ab35307e22bc9bb5980945fa6c6d&o=&hp=1",
+      "link": "/products",
+      "text": "جکوزی 3"
+    },
+    {
+      "id": 4,
+      "image": "https://nomoregreen.com/cdn/shop/products/Spa_cyan.jpg?v=1707333877",
+      "link": "/products",
+      "text": "جکوزی 4"
+    }
+  ]
+}
