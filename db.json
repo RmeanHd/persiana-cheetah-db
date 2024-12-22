@@ -54,25 +54,25 @@
       "Slides": [
         {
           "id": 1,
-          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+          "image": "./public/images/Products/product-1.jpg",
           "link": "/products",
           "text": "جکوزی 1"
         },
         {
           "id": 2,
-          "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+          "image": "./public/images/Products/product-2.jpg",
           "link": "/products",
           "text": "جکوزی 2"
         },
         {
           "id": 3,
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/257711876.jpg?k=aa9a72c63988a5195d622b76d83af9c4f767ab35307e22bc9bb5980945fa6c6d&o=&hp=1",
+          "image": "./public/images/Products/product-3.jpg",
           "link": "/products",
           "text": "جکوزی 3"
         },
         {
           "id": 4,
-          "image": "https://nomoregreen.com/cdn/shop/products/Spa_cyan.jpg?v=1707333877",
+          "image": "./public/images/Products/product-4.jpg",
           "link": "/products",
           "text": "جکوزی 4"
         }
@@ -110,10 +110,8 @@
     {
       "id": 1,
       "Services": [
-        { "id": 1, "text": "چرا پرشیانا چیتا؟", "link": "#" },
+        { "id": 1, "text": "چرا پرشیانا چیتا؟", "link": "/aboutus" },
         { "id": 3, "text": "فروش سازمانی", "link": "#" },
-        { "id": 4, "text": "شرایط و مقررات مجموعه ما", "link": "/terms" },
-        { "id": 5, "text": "مجله سایت", "link": "#" },
         { "id": 6, "text": "قوانین و مقررات", "link": "/terms" }
       ],
       "application": [
@@ -132,7 +130,7 @@
         {
           "id": 1,
           "text": ":تلفن",
-          "information": "(021) 22 33 44 55",
+          "information": "",
           "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gU3ZnIFZlY3RvciBJY29ucyA6IGh0dHA6Ly93d3cub25saW5ld2ViZm9udHMuY29tL2ljb24gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjU2IDI1NiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8bWV0YWRhdGE+IFN2ZyBWZWN0b3IgSWNvbnMgOiBodHRwOi8vd3d3Lm9ubGluZXdlYmZvbnRzLmNvbS9pY29uIDwvbWV0YWRhdGE+DQo8Zz48Zz48Zz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMTExLjIsNy44Yy0xLjMsMS4zLTEuNiwyLjgtMC43LDQuMWMxLDEuNSwxLjksMS42LDEwLjYsMmMxMS4xLDAuNSwyNC42LDMuMiwzNS40LDcuMWM3LjUsMi44LDIwLjQsOS4zLDI2LjcsMTMuNWMyOC4yLDE4LjgsNDcuMSw0Ny4yLDUzLjgsODAuNWMxLjQsNy4yLDIuMywxNS40LDIuMywyMS41YzAsMy4yLDAuMiw0LjMsMC45LDUuMWMxLjQsMS42LDIuOCwxLjgsNC40LDAuNWwxLjQtMS4xbC0wLjMtNy4zYy0xLjUtMzIuOS0xNS4yLTYzLjgtMzguOS04Ny41Yy0yMy43LTIzLjctNTQuNi0zNy41LTg3LjItMzguOUMxMTMsNi45LDExMS45LDcsMTExLjIsNy44eiIvPjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMTMuMSw0Ny42Yy0yLjYsMi42LTAuOSw1LjMsMy4zLDUuM2MxLjQsMCw0LjcsMC4zLDcuNSwwLjZjNDIuOSw0LjcsNzQuOCwzNy42LDc3LjcsODAuNGMwLjIsMy41LDAuNiw2LjksMC44LDcuNGMwLjksMi4zLDQuOSwxLjksNS42LTAuNmMwLjUtMi4yLTAuMy0xMi44LTEuNC0xOC4zYy04LjQtNDEuNC00Mi4yLTcxLjktODQtNzUuNUMxMTQuNSw0Ni4yLDExNC40LDQ2LjIsMTEzLjEsNDcuNnoiLz48cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNNTAuNiw2NC41QzQzLDY2LDM1LjMsNzEuMiwyNi40LDgxYy03LjMsNy45LTEwLjgsMTIuNi0xMy4xLDE3LjRDOCwxMDkuNiw5LDExOS4yLDE2LjksMTMxLjJjMS44LDIuNywxNC42LDE1LjgsNTMuNSw1NC45YzMwLjUsMzAuNSw1Mi44LDUyLjYsNTUuMiw1NC40YzQuNSwzLjUsMTAuNiw2LjUsMTUuMSw3LjdjMy41LDAuOSw5LjQsMSwxMi44LDAuMmM0LjEtMSwxMS4zLTQuOCwxNi4zLTguNmM1LjktNC41LDE2LjQtMTQuNywxOS43LTE5YzguMS0xMC43LDkuMi0yMiwzLjEtMzEuN2MtMS42LTIuNS0yMC40LTIxLjYtMjMuMi0yMy42Yy0xLjgtMS4yLTMuOS0wLjUtOS44LDMuM2MtMTAuNCw2LjUtMjMsMTcuMi0zMC40LDI1LjZMMTI2LDE5OGwtMzMuMy0zMy43Yy0xOC4zLTE4LjUtMzMuMy0zMy44LTMzLjMtMzRjMC0wLjEsMS44LTEuNiwzLjktMy4xYzExLjctOC44LDIzLTIwLjMsMjguMS0yOC43YzMtNSwzLjEtNC44LTcuNi0xNmMtNS4yLTUuMy0xMC42LTEwLjgtMTIuMS0xMi4xQzY1LjUsNjUuMiw1Ny44LDYzLDUwLjYsNjQuNXogTTYyLjksNzIuNmMyLjgsMS4zLDQuNywzLDEzLjMsMTEuNGM1LjQsNS40LDkuOSwxMC4xLDkuOSwxMC41YzAsMS4yLTUuMyw4LjEtMTAuMiwxMy4xYy01LjgsNi4xLTEzLjEsMTIuMi0yMCwxNi45Yy00LjYsMy4xLTQuOCwzLjQtNC44LDUuMXMxLjksMy43LDM2LjUsMzguOGMyMC4xLDIwLjQsMzcsMzcuMiwzNy42LDM3LjRjMS44LDAuOCwzLjQtMC4xLDUuMi0yLjhjMi41LTMuNywxMy45LTE1LjEsMjAuMi0yMC4xYzQuOC0zLjgsMTUuNC0xMS4xLDE2LjEtMTEuMWMwLjIsMCw0LjYsNC4zLDkuOSw5LjVjOCw3LjgsOS45LDEwLDExLjMsMTIuN2MzLjMsNi41LDIuNSwxNC0yLjQsMjEuMWMtMy4xLDQuNS0xNi43LDE3LjUtMjIuOCwyMS43Yy0yLjYsMS44LTYuMSwzLjctOCw0LjNjLTcuNSwyLjctMTUuOSwwLjktMjQuNS01LjJjLTQtMi44LTEwMi43LTEwMS41LTEwNi4yLTEwNi4yYy05LjgtMTMtOS45LTIyLjktMC42LTM1LjNjNC4zLTUuNiwxNC4zLTE2LDE4LTE4LjZDNDkuMiw3MC4zLDU1LjksNjkuMyw2Mi45LDcyLjZ6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTExMy4xLDg2LjljLTEuNSwxLjUtMS42LDIuOS0wLjMsNC4yYzAuNywwLjcsMi4xLDEsNS42LDEuM2MxMC4zLDAuOCwxOS45LDQuNSwyNy41LDEwLjVjMTAuNyw4LjYsMTYuOCwyMC42LDE4LjEsMzUuNWMwLjUsNS43LDIuMiw3LjQsNS4yLDUuM2MxLjItMC45LDEuMi0xLDAuOS02LjVjLTEuMy0yNS45LTIyLjktNDguMi00OS40LTUxLjJDMTE0LjMsODUuNSwxMTQuNSw4NS41LDExMy4xLDg2Ljl6Ii8+PC9nPjwvZz48L2c+DQo8L3N2Zz4="
         },
         {
@@ -160,91 +158,113 @@
     {
       "id": 1,
       "category": "وان",
-      "name": "جکوزی تیپ 1 دو نفره",
-      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "name": "وان",
+      "image": "./public/images/Products/product-1.jpg",
       "link": "#"
     },
     {
       "id": 2,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "image": "./public/images/Products/product-2.jpg",
       "link": "#"
     },
     {
       "id": 3,
       "category": "وان",
-      "name": "جکوزی تیپ 1 دو نفره",
-      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "name": "وان",
+      "image": "./public/images/Products/product-3.jpg",
       "link": "#"
     },
     {
       "id": 4,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "image": "./public/images/Products/product-4.jpg",
       "link": "#"
     },
     {
       "id": 5,
       "category": "وان",
-      "name": "جکوزی تیپ 1 دو نفره",
-      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "name": "وان",
+      "image": "./public/images/Products/product-5.jpg",
       "link": "#"
     },
     {
       "id": 6,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "image": "./public/images/Products/product-6.jpg",
       "link": "#"
     },
     {
       "id": 7,
       "category": "وان",
-      "name": "جکوزی تیپ 1 دو نفره",
-      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "name": "وان",
+      "image": "./public/images/Products/product-7.jpg",
       "link": "#"
     },
     {
       "id": 8,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "image": "./public/images/Products/product-8.jpg",
       "link": "#"
     },
     {
       "id": 9,
       "category": "وان",
-      "name": "جکوزی تیپ 1 دو نفره",
-      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "name": "وان",
+      "image": "./public/images/Products/product-9.jpg",
       "link": "#"
     },
     {
       "id": 10,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "image": "./public/images/Products/product-10.jpg",
       "link": "#"
     },
     {
       "id": 11,
       "category": "وان",
-      "name": "جکوزی تیپ 1 دو نفره",
-      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
+      "name": "وان",
+      "image": "./public/images/Products/product-11.jpg",
       "link": "#"
     },
     {
       "id": 12,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
+      "image": "./public/images/Products/product-12.jpg",
+      "link": "#"
+    },
+    {
+      "id": 13,
+      "category": "وان",
+      "name": "وان",
+      "image": "./public/images/Products/product-13.jpg",
+      "link": "#"
+    },
+    {
+      "id": 14,
+      "category": "جکوزی",
+      "name": "جکوزی تیپ 2 دو نفره",
+      "image": "./public/images/Products/product-14.jpg",
+      "link": "#"
+    },
+    {
+      "id": 15,
+      "category": "وان",
+      "name": "وان",
+      "image": "./public/images/Products/product-15.jpg",
       "link": "#"
     }
+   
   ],
   "Product": [
     {
-      "id": 1,
+      "productId": 1,
       "link": "#",
       "name": "جکوزی پرشین",
       "features": [
@@ -258,24 +278,24 @@
         { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
         { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
         { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
-        { "id": 4, "name": "جکوزی تیپ 1 دو نفره", "price": 25900000 }
+        { "id": 4, "name": "وان", "price": 25900000 }
       ],
       "images": [
         {
           "id": 1,
-          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+          "image": "./public/images/Products/Product-1/IMG_20241216_010213_169.jpg"
         },
         {
           "id": 2,
-          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+          "image": "./public/images/Products/Product-1/IMG_20241216_010213_304.jpg"
         },
         {
           "id": 3,
-          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+          "image": "./public/images/Products/Product-1/IMG_20241216_010213_375.jpg"
         },
         {
           "id": 4,
-          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
+          "image": "./public/images/Products/Product-1/IMG_20241216_010213_815.jpg"
         }
       ]
     }
