@@ -54,25 +54,25 @@
       "Slides": [
         {
           "id": 1,
-          "image": "./public/images/Products/product-1.jpg",
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
           "link": "/products",
           "text": "جکوزی 1"
         },
         {
           "id": 2,
-          "image": "./public/images/Products/product-2.jpg",
+          "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
           "link": "/products",
           "text": "جکوزی 2"
         },
         {
           "id": 3,
-          "image": "./public/images/Products/product-3.jpg",
+          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/257711876.jpg?k=aa9a72c63988a5195d622b76d83af9c4f767ab35307e22bc9bb5980945fa6c6d&o=&hp=1",
           "link": "/products",
           "text": "جکوزی 3"
         },
         {
           "id": 4,
-          "image": "./public/images/Products/product-4.jpg",
+          "image": "https://nomoregreen.com/cdn/shop/products/Spa_cyan.jpg?v=1707333877",
           "link": "/products",
           "text": "جکوزی 4"
         }
@@ -158,113 +158,91 @@
     {
       "id": 1,
       "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-1.jpg",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
       "link": "#"
     },
     {
       "id": 2,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-2.jpg",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
       "link": "#"
     },
     {
       "id": 3,
       "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-3.jpg",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
       "link": "#"
     },
     {
       "id": 4,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-4.jpg",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
       "link": "#"
     },
     {
       "id": 5,
       "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-5.jpg",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
       "link": "#"
     },
     {
       "id": 6,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-6.jpg",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
       "link": "#"
     },
     {
       "id": 7,
       "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-7.jpg",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
       "link": "#"
     },
     {
       "id": 8,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-8.jpg",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
       "link": "#"
     },
     {
       "id": 9,
       "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-9.jpg",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
       "link": "#"
     },
     {
       "id": 10,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-10.jpg",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
       "link": "#"
     },
     {
       "id": 11,
       "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-11.jpg",
+      "name": "جکوزی تیپ 1 دو نفره",
+      "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg",
       "link": "#"
     },
     {
       "id": 12,
       "category": "جکوزی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-12.jpg",
-      "link": "#"
-    },
-    {
-      "id": 13,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-13.jpg",
-      "link": "#"
-    },
-    {
-      "id": 14,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-14.jpg",
-      "link": "#"
-    },
-    {
-      "id": 15,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-15.jpg",
+      "image": "https://jacuzzi-prod.imgix.net/on/demandware.static/-/Sites-master-catalog-jacuzzi/default/dw9c4c407a/images/hi-res/J-LX_Lifestyle.jpg?w=400&h=400&ixlib=sf-22.2.2&auto=format%2Ccompress",
       "link": "#"
     }
-   
   ],
   "Product": [
     {
-      "productId": 1,
+      "id": 1,
       "link": "#",
       "name": "جکوزی پرشین",
       "features": [
@@ -278,24 +256,24 @@
         { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
         { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
         { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
-        { "id": 4, "name": "وان", "price": 25900000 }
+        { "id": 4, "name": "جکوزی تیپ 1 دو نفره", "price": 25900000 }
       ],
       "images": [
         {
           "id": 1,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
         },
         {
           "id": 2,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
         },
         {
           "id": 3,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
         },
         {
           "id": 4,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+          "image": "https://manorviewhotels.co.uk/media/o52por3f/145-1f7a0356.jpg"
         }
       ]
     }
