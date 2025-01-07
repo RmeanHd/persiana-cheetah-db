@@ -179,13 +179,13 @@
       "id": 1,
       "link": "/product/1",
       "category":"روشویی کابینتی",
-      "image": "./public/images/Products/product-1.jpg",
+      "image": "./images/Products/product-1.jpg",
       "name": "جکوزی پرشین 1",
       "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
@@ -232,9 +232,9 @@
       "link": "/product/2",
       "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
@@ -281,9 +281,9 @@
       "name": "جکوزی پرشین 3",
      "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
@@ -331,9 +331,9 @@
       "name": "جکوزی پرشین 4",
      "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
@@ -380,9 +380,9 @@
       "link": "/product/5",
      "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
@@ -429,9 +429,9 @@
       "link": "/product/6",
      "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
@@ -478,9 +478,9 @@
       "link": "/product/7",
      "relatedProducts":[
         {"id":1,  "image": "./images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
-        {"id":2,  "image": "./public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
-        {"id":3,  "image": "./public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
-        {"id":4,  "image": "./public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+        {"id":2,  "image": "./images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "./images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "./images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
       ],
       "features": [
         { "id": 1, "text": "ظرفیت: 2 نفره" },
