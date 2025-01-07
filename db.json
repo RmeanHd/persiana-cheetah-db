@@ -15,7 +15,7 @@
         },
         { "id": 2, "text": "قوانین و مقررات", "link": "/terms" },
         { "id": 3, "text": "تماس با ما", "link": "/contactus" },
-        { "id": 4, "text": "درباره ما", "link": "#" }
+        { "id": 4, "text": "درباره ما", "link": "/aboutus" }
       ],
       "loginText": "ورود یا ثبت نام",
       "loginLink": "/login"
@@ -33,7 +33,7 @@
         },
         { "id": 2, "text": "قوانین و مقررات", "link": "/terms" },
         { "id": 3, "text": "تماس با ما", "link": "/contactus" },
-        { "id": 4, "text": "درباره ما", "link": "#" }
+        { "id": 4, "text": "درباره ما", "link": "/aboutus" }
       ]
     }
   ],
@@ -41,8 +41,7 @@
     {
       "id": 1,
       "cheetahText": "گروه پرشیانا چیتا",
-      "text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. ",
-      "aboutUsLink": "#",
+      "aboutUsLink": "/aboutUs",
       "aboutUsText": "ما را بیشتر بشناسید"
     }
   ],
@@ -54,27 +53,39 @@
       "Slides": [
         {
           "id": 1,
-          "image": "./public/images/Products/product-1.jpg",
-          "link": "/products",
-          "text": "جکوزی 1"
+          "image": "/images/Products/product-1.jpg",
+          "link": "/product/1",
+          "name": "جکوزی پرشین"
         },
         {
           "id": 2,
-          "image": "./public/images/Products/product-2.jpg",
-          "link": "/products",
-          "text": "جکوزی 2"
+          "image": "/images/Products/product-2.jpg",
+          "link": "/product/2",
+          "name": "جکوزی 2"
         },
         {
           "id": 3,
-          "image": "./public/images/Products/product-3.jpg",
-          "link": "/products",
-          "text": "جکوزی 3"
+          "image": "/images/Products/product-3.jpg",
+          "link": "/product/3",
+          "name": "جکوزی 3"
         },
         {
           "id": 4,
-          "image": "./public/images/Products/product-4.jpg",
-          "link": "/products",
-          "text": "جکوزی 4"
+          "image": "/images/Products/product-4.jpg",
+          "link": "/product/4",
+          "name": "جکوزی 4"
+        },
+        {
+          "id": 5,
+          "image": "/images/Products/product-5.jpg",
+          "link": "/product/5",
+          "name": "جکوزی 5"
+        },
+        {
+          "id": 6,
+          "image": "/images/Products/product-6.jpg",
+          "link": "/product/6",
+          "name": "جکوزی 6"
         }
       ],
       "viewallLink": "/products",
@@ -82,15 +93,12 @@
     }
   ],
   "Categories":[
-    {"id":1, "image":"./public/images/Categories/توالت فرنگی.jpg" , "name":"توالت فرنگی"},
-    
-    {"id":1, "image":"./public/images/Categories/روشویی کابینتی.jpg" , "name":"روشویی کابینتی"},
-    
-    {"id":1, "image":"./public/images/Categories/سینک استیل.jpg" , "name":"سینک استیل"},
-    
-    {"id":1, "image":"./public/images/Categories/سینک گرانیتی.jpg" , "name":"سینک گرانیتی"},
-    {"id":1, "image":"./public/images/Categories/وان جکوزی.jpg" , "name":"وان جکوزی"},
-    {"id":1, "image":"./public/images/Categories/وان حمام ساده.jpg" , "name":"وان حمام ساده"}
+    {"id":1, "image":"/images/Categories/توالت فرنگی.jpg" , "category":"توالت فرنگی"},
+    {"id":2, "image":"/images/Categories/روشویی کابینتی.jpg" , "category":"روشویی کابینتی"},
+    {"id":3, "image":"/images/Categories/سینک استیل.jpg" , "category":"سینک استیل"},
+    {"id":4, "image":"/images/Categories/سینک گرانیتی.jpg" , "category":"سینک گرانیتی"},
+    {"id":5, "image":"/images/Categories/وان جکوزی.jpg" , "category":"وان جکوزی"},
+    {"id":6, "image":"/images/Categories/وان حمام ساده.jpg" , "category":"وان حمام ساده"}
   ],
   "Aboutus": [
     {
@@ -149,7 +157,7 @@
           "id": 2,
           "text": "آدرس:",
           "information": "تهران، بلوار نلسون ماندلا، کوچه ایرج، پلاک یک",
-          "image": "./public/images/Footer/location-pin-svgrepo-com (2).svg"
+          "image": "/images/Footer/location-pin-svgrepo-com (2).svg"
         }
       ],
       "licenses": [
@@ -169,109 +177,349 @@
   "Products": [
     {
       "id": 1,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-1.jpg",
-      "link": "#"
+      "link": "/product/1",
+      "category":"روشویی کابینتی",
+      "image": "/public/images/Products/product-1.jpg",
+      "name": "جکوزی پرشین 1",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/public/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/public/images/Products/product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/public/images/Products/product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     },
     {
       "id": 2,
-      "category": "جکوزی",
+      "category":"توالت فرنگی",
       "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-2.jpg",
-      "link": "#"
+      "image": "/images/Products/product-2.jpg",
+      "link": "/product/2",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/images/Products/Product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/images/Products/Product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     },
     {
       "id": 3,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-3.jpg",
-      "link": "#"
+      "link": "/product/3",
+      "category": "وان جکوزی",
+      "image": "/images/Products/product-3.jpg",
+      "name": "جکوزی پرشین 3",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/images/Products/Product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/images/Products/Product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     },
     {
       "id": 4,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-4.jpg",
-      "link": "#"
+      "image": "/images/Products/product-4.jpg",
+      "link": "/product/4",
+      "category":"سینک گرانیتی",
+      "HomepageProductImage": "/images/Products/product-3.jpg",
+      "name": "جکوزی پرشین 4",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/images/Products/Product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/images/Products/Product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     },
     {
       "id": 5,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-5.jpg",
-      "link": "#"
+      "category":"وان حمام ساده",
+      "name": "جکوزی پرشین 5",
+      "image": "/images/Products/product-5.jpg",
+      "link": "/product/5",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/images/Products/Product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/images/Products/Product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     },
     {
       "id": 6,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-6.jpg",
-      "link": "#"
+      "category":"سینک استیل",
+      "name": "جکوزی پرشین 6",
+      "image": "/images/Products/product-6.jpg",
+      "link": "/product/6",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/images/Products/Product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/images/Products/Product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     },
     {
       "id": 7,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-7.jpg",
-      "link": "#"
-    },
-    {
-      "id": 8,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-8.jpg",
-      "link": "#"
-    },
-    {
-      "id": 9,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-9.jpg",
-      "link": "#"
-    },
-    {
-      "id": 10,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-10.jpg",
-      "link": "#"
-    },
-    {
-      "id": 11,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-11.jpg",
-      "link": "#"
-    },
-    {
-      "id": 12,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-12.jpg",
-      "link": "#"
-    },
-    {
-      "id": 13,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-13.jpg",
-      "link": "#"
-    },
-    {
-      "id": 14,
-      "category": "جکوزی",
-      "name": "جکوزی تیپ 2 دو نفره",
-      "image": "./public/images/Products/product-14.jpg",
-      "link": "#"
-    },
-    {
-      "id": 15,
-      "category": "وان",
-      "name": "وان",
-      "image": "./public/images/Products/product-15.jpg",
-      "link": "#"
+      "category":"سینک استیل",
+      "name": "جکوزی پرشین 7",
+      "image": "/images/Products/product-7.jpg",
+      "link": "/product/7",
+      "relatedProducts":[
+        {"id":1,  "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg", "link":"/product/1", "name":"جکوزی 1"},
+        {"id":2,  "image": "/images/Products/product-2.jpg", "link":"/product/2", "name":"جکوزی 2"},
+        {"id":3,  "image": "/images/Products/Product-3.jpg", "link":"/product/3", "name":"جکوزی 3"},
+        {"id":4,  "image": "/images/Products/Product-4.jpg", "link":"/product/4", "name":"جکوزی 4"}
+      ],
+      "features": [
+        { "id": 1, "text": "ظرفیت: 2 نفره" },
+        { "id": 2, "text": "قابل سفارش در 2 مدل وان ساده و جکوزی" },
+        { "id": 3, "text": "زیرسری چرمی" },
+        { "id": 4, "text": "موتور جت دیجیتال" },
+        { "id": 5, "text": "سیستم ضد رسوب" }
+      ],
+      "options": [
+        { "id": 1, "name": "وان ساده یک نفره", "price": 11000000 },
+        { "id": 2, "name": "وان ساده دو نفره", "price": 12500000 },
+        { "id": 3, "name": "جکوزی تیپ 1 یک نفره", "price": 24500000 },
+        { "id": 4, "name": "وان", "price": 25900000 }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+        ,
+        {
+          "id": 5,
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+        }
+      ]
     }
+   
    
   ],
   "Product": [
@@ -295,19 +543,19 @@
       "images": [
         {
           "id": 1,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_169.jpg"
+          "image": "/images/Products/Product-1/IMG_20241216_010213_169.jpg"
         },
         {
           "id": 2,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_304.jpg"
+          "image": "/images/Products/Product-1/IMG_20241216_010213_304.jpg"
         },
         {
           "id": 3,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_375.jpg"
+          "image": "/images/Products/Product-1/IMG_20241216_010213_375.jpg"
         },
         {
           "id": 4,
-          "image": "./public/images/Products/Product-1/IMG_20241216_010213_815.jpg"
+          "image": "/images/Products/Product-1/IMG_20241216_010213_815.jpg"
         }
       ]
     }
